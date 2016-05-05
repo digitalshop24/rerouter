@@ -1,5 +1,7 @@
 require 'rack/rewrite'
 
+# just some changes :)
+
 # Expects ENV['REDIRECTS'] to be a ruby hash of source hostnames to destination hostnames. E.g.:
 #   "{'old.domain.com' => 'new.domain.com'}"
 REDIRECTS = eval(ENV['REDIRECTS'] || '') || {}
